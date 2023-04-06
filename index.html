@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Assests/style.css" />
+    <title>Weather APP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Orbitron:wght@400;500;700;900&family=Playfair+Display:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,800;1,100;1,200;1,500;1,600&family=Sono:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="seven" id="heading" >
+      <h1>Weather App</h1>
+    </div>
+
+    <!-- <h1 id="data"></h1> -->
+    <div class="app" id="app">
+
+      <form action="" id="form">
+        <!-- <label for="location">City Name</label> -->
+        <!-- <legend for = "location">Weather</legend> -->
+        <input type="text"  id="location" name="location" placeholder="Enter City Name">
+        <button id="search"><i class="fa fa-search"></i></button>
+      </form>
+      <div class="container animate__fadeInUp" id="main-container">
+        <img src="/Assests/Images/windy.png" alt="Windy" class="img">
+        <h1 id="city-name">
+      
+        </h1>
+        <h2 id="temp">
+      
+        </h2>
+        <div class="details">
+          <div class="col">
+            <img src="/Assests/Images/humidity.png" class="img" alt="">
+            <p class="humidity" id="humid"></p>
+            <p>humidity</p>
+          </div>
+          <div class="col">
+            <img src="/Assests/Images/windSpeed.png" class="img" alt="">
+            <p class="wind-speed" id="wind-speed"></p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+
+
+    <script src="Assests/script.js"></script>
+  </body>
+</html>
